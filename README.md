@@ -1,2 +1,1 @@
-# violetxi.github.io
-Personal website
+Website based on Jon Barron's public academic website: https://jonbarron.info/.
