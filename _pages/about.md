@@ -7,4 +7,8 @@ redirect_from:
   - /about.html
 ---
 
-My research investigates how to build intelligent agents that can learn and reason effectively in dynamic environments. Through my work with large language models, I develop agents with social cognitive abilities to understand and interact with humans and other agents. I'm currently focused on enhancing agents' reasoning through tool use and search-augmented inference, enabling them to decompose and solve complex tasks. My goal is to create agents that can learn and adapt through meaningful interactions with their environment.
+I am a PhD candidate in the [Stanford Autonomous Agents Lab](https://www.autonomousagents.stanford.edu/), advised by [Nick Haber](https://profiles.stanford.edu/nicholas-haber). My research focuses on advancing artificial intelligence in two key areas:
+
+* **Social Intelligence in Language Models**: I develop evaluation frameworks to assess how language models comprehend and reason in social situations, helping improve social evaluations.
+
+* **Tool-Augmented Reasoning**: I explore methods for enhancing language models' problem-solving capabilities by enabling them to effectively utilize external tools .
