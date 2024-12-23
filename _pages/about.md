@@ -11,4 +11,4 @@ I am a PhD candidate in the [Stanford Autonomous Agents Lab](https://www.autonom
 
 * **Social Intelligence in Language Models**: I develop LLM-based agents with theory-of-mind capabilities, and evaluation frameworks to assess how LLMs comprehend and reason in social situations.
 
-* **Scaling Properties of Agents:**:  I investigate how tool use and reasoning capabilities scale with inference-time compute in LLM-based agents, characterizing the relationship between computational resources and effective problem-solving.
+* **Scaling Properties of Agents**:  I investigate how tool use and reasoning capabilities scale with inference-time compute in LLM-based agents, characterizing the relationship between computational resources and effective problem-solving.
