@@ -9,6 +9,6 @@ redirect_from:
 
 I am a PhD candidate in the [Stanford Autonomous Agents Lab](https://www.autonomousagents.stanford.edu/), advised by [Nick Haber](https://profiles.stanford.edu/nicholas-haber). My research focuses on two key areas:
 
-* **Social Intelligence in Language Models**: I develop evaluation frameworks to assess how language models comprehend and reason in social situations, helping improve social evaluations.
+* **Social Intelligence in Language Models**: I develop LLM-based agents with theory-of-mind capabilities, and evaluation frameworks to assess how LLMs comprehend and reason in social situations.
 
-* **Tool-Augmented Reasoning**: I explore methods for enhancing language models' problem-solving capabilities by enabling them to effectively utilize external tools .
+* **Scaling Properties of Agents:**:  I investigate how tool use and reasoning capabilities scale with inference-time compute in LLM-based agents, characterizing the relationship between computational resources and effective problem-solving.
