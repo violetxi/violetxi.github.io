@@ -11,10 +11,10 @@ locale                   : "en-US"
 title                    : "Violet Xiang"
 title_separator          : "-"
 name                     : &name "Violet Xiang"
-description              : &description "personal description"
+description              : &description "Violet Xiang is a Stanford PhD candidate working on LLM post-training, reinforcement learning, reward modeling, and computational cognitive science."
 url                      : https://violetxi.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "violetxi/violetxi.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -24,15 +24,15 @@ author:
   avatar           : "profile.jpg"
   name             : "Violet Xiang"
   # pronouns         : # example: "she/her"  
-  bio: "ziyxiang[at]stanford[dot]edu"
+  bio: "PhD candidate at Stanford University"
   # location         : "Earth"
   # employer         : "Red Brick University"
   # uri              : # URL
-  # email            : "ziyxiang@stanford.edu" 
+  email            : "ziyxiang@stanford.edu"
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.fr/citations?user=1LQU1CQAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=1LQU1CQAAAAJ&hl=en"
   # impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
   # semantic         : # URL
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "violetxi"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

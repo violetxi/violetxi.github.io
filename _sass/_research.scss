@@ -1,0 +1,64 @@
+/* Shared presentation for research entries on the homepage and publication pages. */
+.publication-group {
+  margin-top: 2.25em;
+
+  > h2 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid $border-color;
+    font-size: 1.25em;
+    line-height: 1.4;
+  }
+}
+
+.publication-item {
+  margin: 0 0 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid $border-color;
+
+  h3 {
+    margin: 0 0 0.4em;
+    font-size: 1.05em;
+    line-height: 1.45;
+
+    a {
+      color: $text-color;
+      text-decoration: none;
+
+      &:hover, &:focus {
+        color: $link-color-hover;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  p {
+    margin: 0 0 0.5em;
+    font-size: 0.9em;
+    line-height: 1.6;
+  }
+
+  .publication-authors { color: #60666b; }
+  .publication-venue { font-weight: 600; }
+
+  .publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em 1em;
+    margin-top: 0.6em;
+    font-size: 0.85em;
+    font-weight: 600;
+  }
+}
+
+.contribution-note {
+  font-size: 0.85em;
+  color: #60666b;
+}
+
+.experience-item {
+  margin-bottom: 1.75em;
+
+  h3 { margin: 0 0 0.35em; }
+  .experience-role { margin-bottom: 0.2em; font-weight: 600; }
+  .experience-dates { color: #60666b; font-size: 0.85em; margin-bottom: 0.7em; }
+}

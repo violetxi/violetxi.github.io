@@ -1,9 +1,12 @@
 ---
-title: "Learning the generative principles of a symbol system from limited examples"
-collection: publications
-permalink: /publication/privacy
-venue: 'Cognition'
-date: 2020-10-14
-paperurl: 'https://www.sciencedirect.com/science/article/pii/S0010027720300627'
-citation: Lei Yuan, <strong>Violet Xiang</strong>, David Crandall, Linda Smith. (2021).'
+layout: "publication"
+collection: "publications"
+title: "Learning the Generative Principles of a Symbol System from Limited Examples"
+permalink: "/publication/symbol-system/"
+year: 2020
+venue: "Cognition, 2020"
+research_area: "Human and Machine Learning"
+order: 12
+citation: "L. Yuan, <strong>Violet Xiang</strong>, D. Crandall, L. Smith."
+paperurl: "https://pubmed.ncbi.nlm.nih.gov/32151856/"
 ---

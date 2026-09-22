@@ -1,0 +1,22 @@
+{% assign publication = include.publication %}
+<article class="publication-item{% if include.compact %} publication-item--compact{% endif %}">
+  {% unless include.show_title == false %}
+    <h3><a href="{{ publication.url | relative_url }}">{{ publication.title }}</a></h3>
+  {% endunless %}
+  {% unless include.compact %}
+    <p class="publication-authors">{{ publication.citation }}</p>
+  {% endunless %}
+  <p class="publication-venue">{{ publication.venue }}</p>
+  {% if publication.summary %}
+    <p class="publication-summary">{{ publication.summary }}</p>
+  {% endif %}
+  <div class="publication-links" aria-label="Publication resources">
+    {% if publication.paperurl %}
+      {% assign paper_prefix = publication.paperurl | slice: 0, 1 %}
+      <a href="{% if paper_prefix == '/' %}{{ publication.paperurl | relative_url }}{% else %}{{ publication.paperurl }}{% endif %}">Paper<span class="sr-only">: {{ publication.title }}</span></a>
+    {% endif %}
+    {% if publication.codeurl %}<a href="{{ publication.codeurl }}">Code<span class="sr-only">: {{ publication.title }}</span></a>{% endif %}
+    {% if publication.dataseturl %}<a href="{{ publication.dataseturl }}">Dataset<span class="sr-only">: {{ publication.title }}</span></a>{% endif %}
+    {% if publication.projecturl %}<a href="{{ publication.projecturl }}">Project<span class="sr-only">: {{ publication.title }}</span></a>{% endif %}
+  </div>
+</article>

@@ -1,0 +1,10 @@
+<div class="experience-list">
+  {% for experience in site.data.industry %}
+    <article class="experience-item">
+      <h3>{{ experience.organization }}</h3>
+      <p class="experience-role">{{ experience.role }}</p>
+      <p class="experience-dates">{{ experience.dates }}</p>
+      <p>{{ experience.description }}</p>
+    </article>
+  {% endfor %}
+</div>

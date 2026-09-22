@@ -1,0 +1,8 @@
+- organization: Radical Numerics
+  role: Member of Technical Staff Intern
+  dates: October 2025 - January 2026
+  description: Built an end-to-end post-training and evaluation stack for DPO-tuning genomic foundation models, including preference-data processing, training orchestration, and evaluation for biomedical DNA-sequence design.
+- organization: Toyota Research Institute
+  role: Research Scientist Intern, Human-AI Interactive Learning
+  dates: June - September 2025
+  description: Developed a teacher-training objective for corrective feedback, scoring teacher outputs by how much they improved a frozen student's likelihood of the reference solution. Established a final-answer reward signal and studied why it did not transfer to long reasoning traces.

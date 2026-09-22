@@ -5,112 +5,18 @@ permalink: /publications/
 author_profile: true
 ---
 
-<div class="publications-header">  
-  <p class="contribution-note">* indicates equal contribution</p>
-</div>
+<p>My work spans language-model training and evaluation, multi-agent learning, and human and machine cognition.</p>
+<p class="contribution-note">* indicates equal contribution. See also <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
 
-<div class="publications">
-  {% for post in site.publications reversed %}
-    <div class="publication-item">
-      <h2>{{ post.title }}</h2>
-      <p class="authors">{{ post.citation }}</p>
-      
-      <div class="venue-links">
-        <p class="venue"><strong>{{ post.venue }}</strong></p>
-        <div class="links">
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="btn">Paper</a>
-          {% endif %}
-          {% if post.projecturl %}
-            <a href="{{ post.projecturl }}" class="btn">Project Page</a>
-          {% endif %}
-        </div>
-      </div>
-
-      {% if post.abstract %}
-        <div class="abstract">
-          <p><strong>Abstract:</strong> {{ post.abstract }}</p>
-        </div>
-      {% endif %}
-    </div>
-    <hr>
-  {% endfor %}
-</div>
-
-<style>
-  .publication-item {
-    margin-bottom: 0.2em;
-    padding: 0.2em;
-  }
-  
-  .publication-item h2 {
-    margin-bottom: 0.2em;
-    color: #2a2a2a;
-  }
-  
-  .authors {
-    color: #666;
-    font-style: italic;
-    margin: 0.2em 0;
-  }
-  
-  .venue-links {
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
-    margin: 0.2em 0;
-  }
-  
-  .venue {
-    margin: 0;
-  }
-  
-  .links {
-    margin: 0;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 0.5em 1em;
-    margin-right: 1em;
-    background-color: #4a4a4a;
-    color: white;
-    text-decoration: none;
-    border-radius: 3px;
-  }
-  
-  .btn:hover {
-    background-color: #666;
-  }
-  
-  .abstract {
-    margin-top: 1em;
-    font-size: 0.9em;
-    color: #444;
-  }
-  
-  hr {
-    margin: 0.2em 0;
-    border: none;
-    border-top: 1px solid #eee;
-  }
-  
-  .contribution-note {
-    font-size: 0.8em;
-    color: #666;
-    margin-top: -1em;
-    margin-bottom: 0.3em;
-    font-style: italic;
-  }
-  
-  .publications-header {
-    margin-bottom: 0.2em;
-  }
-  
-  .publications {
-    margin-top: 0.2em;
-  }
-</style>
-
-
-
+{% assign areas = "LLM Post-Training, Reward Modeling, and Evaluation|Multi-Agent Learning|Human and Machine Learning|Privacy and Security|Earlier Work" | split: "|" %}
+{% for area in areas %}
+  {% assign publications = site.publications | where: "research_area", area | sort: "order" %}
+  {% if publications.size > 0 %}
+    <section class="publication-group" aria-labelledby="{{ area | slugify }}">
+      <h2 id="{{ area | slugify }}">{{ area }}</h2>
+      {% for publication in publications %}
+        {% include publication-item.html publication=publication %}
+      {% endfor %}
+    </section>
+  {% endif %}
+{% endfor %}
