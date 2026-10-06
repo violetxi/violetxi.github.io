@@ -1,4 +1,18 @@
 /* Shared presentation for research entries on the homepage and publication pages. */
+.background-details {
+  margin: 1em 0 1.3em;
+  font-size: 0.9em;
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 0.6em 0 0;
+  }
+}
+
 .publication-group {
   margin-top: 2.25em;
 

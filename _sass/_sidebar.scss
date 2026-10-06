@@ -80,7 +80,6 @@
   display: table-cell;
   vertical-align: top;
   width: 100px;
-  // set width only, for non-square avatars
   height: 100px;
 
   @include breakpoint($large) {
@@ -88,15 +87,24 @@
     width: auto;
     height: auto;
   }
+}
+
+.author__avatar-crop {
+  position: relative;
+  width: 100%;
+  max-width: 240px;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 50%;
 
   img {
-    max-width: 240px;
-    border-radius: 60%;
-
-    @include breakpoint($large) {
-      padding: 0px;
-      border: 0px solid $border-color;
-    }
+    // Frame IMG_0726 around the head and shoulders, with the face at 60% across.
+    position: absolute;
+    width: 168%;
+    max-width: none;
+    height: auto;
+    left: -19%;
+    top: -69%;
   }
 }
 
@@ -241,6 +249,12 @@
 
   li {
     white-space: nowrap;
+  }
+
+  .icon-pad-right {
+    width: 1.25em;
+    padding-right: 0;
+    text-align: center;
   }
 
   a {

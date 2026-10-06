@@ -10,6 +10,7 @@
   {% if publication.summary %}
     <p class="publication-summary">{{ publication.summary }}</p>
   {% endif %}
+  {% if publication.paperurl or publication.codeurl or publication.dataseturl or publication.projecturl %}
   <div class="publication-links" aria-label="Publication resources">
     {% if publication.paperurl %}
       {% assign paper_prefix = publication.paperurl | slice: 0, 1 %}
@@ -19,4 +20,5 @@
     {% if publication.dataseturl %}<a href="{{ publication.dataseturl }}">Dataset<span class="sr-only">: {{ publication.title }}</span></a>{% endif %}
     {% if publication.projecturl %}<a href="{{ publication.projecturl }}">Project<span class="sr-only">: {{ publication.title }}</span></a>{% endif %}
   </div>
+  {% endif %}
 </article>

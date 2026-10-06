@@ -7,11 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Psychology at **Stanford University**, working in the [Stanford Autonomous Agents Lab](https://www.autonomousagents.stanford.edu/) with [Nick Haber](https://profiles.stanford.edu/nicholas-haber). My research focuses on **LLM post-training, reinforcement learning, and reward modeling**, with roots in computational cognitive science.
+I am a PhD candidate in Psychology at Stanford University and a member of the [Stanford Autonomous Agents Lab](https://www.autonomousagents.stanford.edu/). I work with [Nick Haber](https://profiles.stanford.edu/nicholas-haber) and [Aviral Kumar](https://aviralkumar2907.github.io/).
 
-I study how to train language models to reason more effectively, how to provide useful feedback during learning, and how to evaluate what models learn. My recent work spans dense rewards for exploratory RL, adaptive reasoning budgets, reward-model biases, and human-preference evaluation. I also work on theory of mind in multi-agent systems and benchmarks connecting human and machine learning.
+My research interests span **exploration and scientific discovery through reinforcement learning**, **test-time learning**, and **learning in open-ended domains** such as creative writing. I bring a computational cognitive science perspective to questions about how agents learn, reason, and explore.
 
-Previously, I earned an M.S. in Computer Science and undergraduate degrees in Informatics and Mathematics at Indiana University.
+<details class="background-details">
+  <summary>Background</summary>
+  <p>Previously, I earned an M.S. in Computer Science and undergraduate degrees in Informatics and Mathematics at Indiana University.</p>
+</details>
 
 [CV (PDF)]({{ '/files/CV_Violet.pdf' | relative_url }}) · [Google Scholar](https://scholar.google.com/citations?user=1LQU1CQAAAAJ&hl=en) · [GitHub](https://github.com/violetxi) · [Email](mailto:ziyxiang@stanford.edu)
 

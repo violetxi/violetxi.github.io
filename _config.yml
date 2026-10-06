@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Violet Xiang"
 title_separator          : "-"
 name                     : &name "Violet Xiang"
-description              : &description "Violet Xiang is a Stanford PhD candidate working on LLM post-training, reinforcement learning, reward modeling, and computational cognitive science."
+description              : &description "Violet Xiang is a Stanford PhD candidate interested in exploration and scientific discovery through reinforcement learning, test-time learning, and learning in open-ended domains such as creative writing."
 url                      : https://violetxi.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "violetxi/violetxi.github.io"
@@ -21,7 +21,7 @@ repository               : "violetxi/violetxi.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile-0726.jpg"
   name             : "Violet Xiang"
   # pronouns         : # example: "she/her"  
   bio: "PhD candidate at Stanford University"
